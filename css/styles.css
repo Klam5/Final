@@ -6,7 +6,7 @@
 img{
   width: 100%;
 }
-.main{
+  .main{
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -20,6 +20,7 @@ div.sideimage{
   border: 0 solid rgb(55, 68, 251);
 }
 div.txt{
+  margin-top: 20px;
   width: 50%;
   border: 0 solid rgb(55, 68, 251);
 }
@@ -37,21 +38,6 @@ nav{
 ul{
   text-align: center;
 }
-div.slideshow{
-  margin-bottom: 30px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.cycle-slideshow img { width: 100%; height: auto }
-div.slideshow a{
-  flex-basis: auto;
-}
-.cropped {
-  width: 1220px;
-  height: 400px;
-  overflow: hidden;
-}
 li{
   display: inline-block;
   width: 150px;
@@ -66,7 +52,10 @@ a{
   border: 1px solid rgb(0, 0, 0);
   display: block;
 }
-.tab { text-indent: 40px; }
+.tab { 
+  text-indent: 40px; 
+  margin-top: 10px;
+}
 h1{
   margin-left: 40px;
 }
@@ -74,5 +63,39 @@ p{
   margin-left: 40px;
   margin-right: 40px;
   font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+margin-top: 100px;
+text-align: left;
+padding: 10px;
+background-color:rgb(86, 153, 154);
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#smaller-slideshow {
+overflow: hidden;
+height: 510px;
+width: 728px;
+border: 0 solid rgb(55, 68, 251);
+}
+.slidecontainer div { 
+  margin-top: 20px;
+  margin: 0px auto;
+  contain: content;
+  margin-bottom: 20px;
+} 
+.item img{
+width: 50%;
+border: 0 solid rgb(55, 68, 251);
+}
+.item .caption{
+width:50%;
+border: 0 solid rgb(55, 68, 251);
+}
+.center{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
